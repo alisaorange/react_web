@@ -1,0 +1,37 @@
+/*.storybook-button {*/
+/*    border: none;*/
+/*    padding: 8px 16px;*/
+/*    cursor: pointer;*/
+/*    border-radius: 4px;*/
+/*    font-size: 16px;*/
+/*}*/
+/*.storybook-button--type-one {*/
+/*    color: white;*/
+/*    background-color: #007bff;*/
+/*}*/
+/*.storybook-button--type-two {*/
+/*    color: white;*/
+/*    background-color: #c91e39;*/
+/*}*/
+
+
+.btn-toggle {
+    background-color: transparent; /* Прозрачный фон */
+    border: 1px solid #ccc; /* Лёгкая рамка */
+    color: #333; /* Тёмный текст */
+    font-size: 16px; /* Средний размер текста */
+    padding: 8px 16px; /* Отступы внутри кнопки */
+    border-radius: 4px; /* Закругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Плавные анимации */
+}
+
+.btn-toggle:hover {
+    background-color: #f0f0f0; /* Светлый фон при наведении */
+    border-color: #999; /* Более тёмная рамка */
+}
+
+.btn-toggle:active {
+    background-color: #e0e0e0; /* Ещё более тёмный фон при нажатии */
+    color: #000; /* Тёмный текст */
+}
